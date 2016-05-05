@@ -1,0 +1,16 @@
+<myStruts>
+	<form-bean>
+		<form name="loginForm" class="com.woniuxy.ms.demo.servlet.LoginForm">
+			<property name="name" type="java.lang.String" />
+			<property name="pass" type="java.lang.String" />
+		</form>
+	</form-bean>
+	<actions>
+		<action name="login" 
+			form="loginForm" 
+			input="login.jsp" 
+			class="com.woniuxy.ms.demo.servlet.LoginAction">
+			<result name="list">/index.jsp</result>
+		</action>
+	</actions>
+</myStruts>

@@ -1,0 +1,8 @@
+<myStruts>
+	<actions>
+		<action name="list"  
+				class="com.woniuxy.ms.demo.servlet.GoodsListAction">
+			<result name="show">/jsp/list.jsp</result>
+		</action>
+	</actions>
+</myStruts>
